@@ -81,7 +81,7 @@ void printDir(char *path, int indent, int hiddenFlag, int sizeFlag){
 
         // struct stat to store fileInfo
         struct stat fileInfo;
-        // if stat is successful use, use fileInfo to get needed information
+        // if stat is successful , use fileInfo to get needed information
         if(stat(totalPath, &fileInfo) == 0){
             // set directory flag
             newDirElement.isDir = S_ISDIR(fileInfo.st_mode);
