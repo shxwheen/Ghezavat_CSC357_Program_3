@@ -1,4 +1,4 @@
-# Ghezavat_CSC357_Program_3
+# shows dir tree
 
 I used `fs` directory for testing
 
